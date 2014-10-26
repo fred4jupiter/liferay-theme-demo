@@ -13,9 +13,6 @@
 	<properties>
 		<liferay.server.home>c:/noscan/liferay-portal-6.2-ce-ga2</liferay.server.home>
 		<liferay.version>6.2.1</liferay.version>
-		<jsf.project.stage>Development</jsf.project.stage>
-		<liferay.theme.parent>_styled</liferay.theme.parent>
-		<liferay.theme.type>vm</liferay.theme.type>
 	</properties>
 
 	<build>
@@ -70,9 +67,9 @@
 					<appServerLibGlobalDir>${liferay.server.home}/tomcat-7.0.42/lib/ext</appServerLibGlobalDir>
 					<appServerPortalDir>${liferay.server.home}/tomcat-7.0.42/webapps/ROOT</appServerPortalDir>
 					<liferayVersion>${liferay.version}</liferayVersion>
-					<parentTheme>${liferay.theme.parent}</parentTheme>
+					<parentTheme>_styled</parentTheme>
 					<pluginType>theme</pluginType>
-					<themeType>${liferay.theme.type}</themeType> 
+					<themeType>vm</themeType> 
 				</configuration>
 			</plugin>
 			<plugin>
