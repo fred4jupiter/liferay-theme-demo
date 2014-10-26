@@ -22,12 +22,14 @@ $theme.include($body_top_include)
 	#dockbar()
 #end
 
+#set($site_name = "Opitz Consulting GmbH")
+
 <div class="container-fluid" id="wrapper">
 	<header id="banner" role="banner">
 		<div id="heading">
 			<h1 class="site-title">
 				<a class="$logo_css_class" href="$site_default_url" title="#language_format ("go-to-x", [$site_name])">
-					<img alt="$logo_description" height="$site_logo_height" src="$site_logo" width="$site_logo_width" />
+					<img alt="$logo_description" height="$site_logo_height" src="$images_folder/oclogo.jpg" width="$site_logo_width" />
 				</a>
 
 				#if ($show_site_name)
